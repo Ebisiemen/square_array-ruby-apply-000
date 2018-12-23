@@ -1,17 +1,7 @@
-def 
-  numbers =[1,2,3]
-  numbers.each { |e| puts e**2 } 
-  square_array(numbers)
-  square_array.each do 
-  #=>   
-end
-
-def 
-  numbers = [1,2,3]
+def square_array(numbers)
   new_numbers = []
-  numbers.each do |square_array|  
-  new_numbers = numbers ** numbers 
-  #=>
+  numbers.each do |square|  
+  new_numbers<< numbers ** 2
 end  
 
 puts numbers  
